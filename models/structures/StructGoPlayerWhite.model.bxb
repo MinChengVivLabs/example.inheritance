@@ -1,0 +1,7 @@
+structure (StructGoPlayerWhite) {
+  description (this is the player in go game hold white)
+  role-of (StructGoPlayer)
+  extends (StructGoPlayer)
+  // do NOT add new property to role-of
+  // it is not flagged as error in IDE, but will definitely cause issue in training
+}

@@ -1,0 +1,25 @@
+structure (StructGoMatch) {
+  description (a go match has black vs white, and a prize set)
+  property (black) {
+    type (StructGoPlayerBlack)
+    // type (StructGoPlayer)
+    min (Required) max (One)
+  }
+  property (white) {
+    type (StructGoPlayerWhite)
+    // type (StructGoPlayer)
+    min (Required) max (One)
+  }
+  // property (observer) {
+  //   type (StructGoObserver)
+  //   min (Required) max (One)
+  // }
+  property (prize) {
+    type (viv.core.Integer)
+    min (Required) max (One)
+  }
+  property (black_win) {
+    type (viv.core.Boolean)
+    min (Required) max (One)
+  }
+}

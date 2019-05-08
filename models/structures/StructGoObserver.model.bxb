@@ -1,0 +1,16 @@
+// extends create a super-child relationship like any other language 
+// any new property can be added to child class
+// in this example, it is clear that an instant of StructGoObserver is an instant of StructGoPlayer
+// and the conversion or type-cast is easy
+// however, an instant of StructGoPlayer is NOT an instant of StructGoObserver, 
+// addition action model must be created in order to type-cast with or without new property in child structure 
+
+structure (StructGoObserver) {
+  description (this extends StructGoPlayer)
+  extends (StructGoPlayer)
+  // new property to child class
+  property (observerFee) {
+    type (viv.core.Decimal)
+    min (Optional) max (One)
+  }
+}

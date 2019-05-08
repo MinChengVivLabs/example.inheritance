@@ -1,0 +1,11 @@
+action (ActionDisplayWhiteCredit) {
+  description (display credit of white player, note this input is a StructGoPlayerWhite)
+  type (Search)
+  collect {
+    input (white) {
+      type (StructGoPlayerWhite)
+      min (Required) max (One)
+    }
+  }
+  output (viv.core.Text)
+}

@@ -1,0 +1,5 @@
+train (t-6sbyi1g4uio0i9hooyaojnp51) {
+  utterance ("[g:ActionDisplayCredit] Display credit of white player rank {[g:StructGoPlayer] (6)[v:GoPlayerRank]}")
+  plan (bcxBCsJADIXh11bdeQdxI7iYO0gFt6KC62EMNFhnShpLvb2DRUHIJu9ffAQLLAceXEhC7kKjYkOjf3QtOY4NCauPgdwuKKe4575r/asWurFibcGzyjPoIR2zI7Gf/Ztrw0rYWrBOsTfsyrJfcvLxjjkKlKgwy4VfF7mrz522nNwb)
+  last-modified (1556567659076)
+}

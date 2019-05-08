@@ -1,0 +1,11 @@
+action (ActionDisplayCredit) {
+  description (Display the private property credit of a go player)
+  type (Search)
+  collect {
+    input (player) {
+      type (StructGoPlayer)
+      min (Required) max (One)
+    }
+  }
+  output (viv.core.Text)
+}

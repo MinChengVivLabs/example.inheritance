@@ -1,0 +1,5 @@
+structure (StructGoPlayerBlack) {
+  description (this is the player in go game hold black)
+  role-of (StructGoPlayer)
+  extends (StructGoPlayer)
+}

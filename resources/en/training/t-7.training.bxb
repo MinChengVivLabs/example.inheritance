@@ -1,0 +1,5 @@
+train (t-7p17cu2g2s0xo9sd40v2k8l74) {
+  utterance ("[g:StructGoPlayerBlack#name] What is the name of black player rank {[g:StructGoPlayerBlack] (6)[v:GoPlayerRank]}")
+  plan (Y+BgUEitSMwtyEnVy8zLSC3KLEnMS07Vc88PyEmsTC3yS8xNZVDCpiK4pKg0uQSmjkGdsBqnnMTkbOIVUsnW8IzMklQGLWwKnfPzirGoxRsgQYl52QzsDIwMTAzMDCwMrAxsQB4DCh/E4gGymYGiIMAMFgHpYQYA)
+  last-modified (1556567659270)
+}

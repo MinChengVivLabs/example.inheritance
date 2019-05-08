@@ -1,0 +1,11 @@
+action (ConstructGoPlayer) {
+  description (return a StructGoPlayer based on input name)
+  type (Search)
+  collect {
+    input (name) {
+      type (GoPlayerName)
+      min (Required) max (One)
+    }
+  }
+  output (StructGoPlayer)
+}

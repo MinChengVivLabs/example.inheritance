@@ -1,0 +1,29 @@
+action (ActionDisplayAnything) {
+  description (this action demonstrate three different goals)
+  type (Search)
+  collect {
+    input (match) {
+      type (StructGoMatch)
+      min (Required) max (One)
+    }
+    computed-input (anything) {
+      type (GoPlayerCredit)
+      min (Required) max (One)
+      compute {
+        intent {
+          // goal: ActionDisplayBlackCredit
+          // goal: StructGoMatch#black.credit
+          goal: StructGoMatch#observer.credit
+          value: StructGoMatch {
+            black: $expr(match.black),
+            white: $expr(match.white),
+            observer: $expr(match.observer),
+            black_win: $expr(match.black_win),
+            prize: viv.core.Integer(5000),
+          }
+        }
+      }
+    }
+  }
+  output (viv.core.Text)
+}

@@ -1,0 +1,11 @@
+action (ActionDisplayBlackCredit) {
+  description (__DESCRIPTION__)
+  type (Search)
+  collect {
+    input (match) {
+      type (StructGoMatch)
+      min (Required) max (One)
+    }
+  }
+  output (GoPlayerCredit)
+}

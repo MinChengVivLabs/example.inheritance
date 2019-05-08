@@ -1,0 +1,3 @@
+integer (GoPlayerCredit) {
+  description (__DESCRIPTION__)
+}

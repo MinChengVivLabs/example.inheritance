@@ -1,0 +1,5 @@
+train (t-273sbxxvt0ggl45nh8189l8en) {
+  utterance ("[g:StructGoPlayer#name] what is the name of white player rank {[g:StructGoPlayer] (6)[v:GoPlayerRank]}")
+  plan (Y2BjUEitSMwtyEnVy8zLSC3KLEnMS07Vc88PyEmsTC3yS8xNZVDCpiK4pKg0uQSmjig16oTVhGdklqQyaGFT6JyfV4xFLV7nByXmZTOwMjAyMDEwM7AAWQxwNhMDD5BmZAABZrAoWB0A)
+  last-modified (1556567659251)
+}

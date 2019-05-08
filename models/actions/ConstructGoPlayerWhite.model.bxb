@@ -1,0 +1,13 @@
+action (ConstructGoPlayerWhite) {
+  description (create with rank input, so not confuse NL)
+  type (Search)
+  // type (Constructor)
+  // type (Fetch)
+  collect {
+    input (rank) {
+      type (GoPlayerRank)
+      min (Required) max (One)
+    }
+  }
+  output (StructGoPlayerWhite)
+}

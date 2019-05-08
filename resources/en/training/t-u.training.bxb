@@ -1,0 +1,5 @@
+train (t-uvlnugbtlawy6z45gt9z67sbi) {
+  utterance ("[g:StructGoMatch#black.credit] IRS show me the black player's credit from match {[g:StructGoPlayerBlack] (AlphaGo)[v:GoPlayerName]} vs {[g:StructGoPlayerWhite] (AmazonGo)[v:GoPlayerName]}")
+  plan (Y+BlUEqtSMwtyEnVy8zLSC3KLEnMS07Vc88PyEmsTC1yLkpNySzBria4pKg0uQSmkkGdsBqnnMTkbAZFfAp9E0uSMxhUsClxzs8rRlFFtI3EOF+VgJVQZQr4QssvMTeVGFeFZ2SWpNLXVTwMjAxMDMwMLAysDGwM7AwcDJwMXAzcQHEGNBkWqAxIjAkoxwAUAZEImhUowwo2gQeogpWBEwA=)
+  last-modified (1556567531224)
+}

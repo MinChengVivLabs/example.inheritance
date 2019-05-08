@@ -1,0 +1,5 @@
+train (t-ekp13kzbk9th3xaw15p0me992) {
+  utterance ("[g:StructGoPlayer#credit] what is the credit of player (AmazonGo)[v:GoPlayerName]")
+  plan (Y2BhUEqtSMwtyEnVy8zLSC3KLEnMS07Vc88PyEmsTC1yLkpNySzBria4pKg0uQSmkkEVmxrn/LxiVGUK+KzzS8xNZWBmYGRgApIMYJoJSIIAiAaKAQA=)
+  last-modified (1555972011958)
+}

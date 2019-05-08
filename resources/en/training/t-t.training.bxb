@@ -1,0 +1,5 @@
+train (t-tum5h3zr82jx54okd3io6qsgb) {
+  utterance ("[g:ActionDisplayWhiteCredit] Display credit of white player {[g:StructGoPlayerWhite] (AmazonGo)[v:GoPlayerName]}")
+  plan (hcpNCsJADIbhr/7tvIMI4kbmDtKCOykouB7GQAPtTEljaW/vWFEQBtyEN8mDFdY998YFIXOlQXGgwTZtTYZ9RcJqvSNzdMrBF9y1tR1vFSvlQndW7FP6ovJwegplxCQTx/Y/xC5l8uC7X7ZJsc/3bBvCEhlmmGMRC9/OYr8n4v66Tu4J)
+  last-modified (1555966928097)
+}

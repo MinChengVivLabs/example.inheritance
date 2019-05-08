@@ -1,0 +1,11 @@
+action (ActionDisplayMatchCredit) {
+  description (Display the private property credit of both go player in a match)
+  type (Search)
+  collect {
+    input (match) {
+      type (StructGoMatch)
+      min (Required) max (One)
+    }
+  }
+  output (viv.core.Text)
+}

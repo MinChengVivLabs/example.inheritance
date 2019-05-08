@@ -1,0 +1,36 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (ActionDisplayCredit) {
+      accepted-inputs (player)
+      local-endpoint ("DisplayCredit.js")
+    }
+    action-endpoint (ConstructGoPlayer) {
+      accepted-inputs (name) 
+      local-endpoint ("ConstructGoPlayer.js")
+    }
+    action-endpoint (ConstructGoPlayerWhite) {
+      accepted-inputs (rank)
+      local-endpoint ("ConstructGoPlayerWhite.js")
+    }
+    action-endpoint (ConstructGoMatch) {
+      accepted-inputs (black, white) 
+      local-endpoint ("ConstructGoMatch.js")
+    }
+    action-endpoint (ActionDisplayMatchCredit) {
+      accepted-inputs (match)
+      local-endpoint ("DisplayMatchCredit.js")
+    }
+    action-endpoint (ActionDisplayBlackCredit) {
+      accepted-inputs (match)
+      local-endpoint ("DisplayBlackCredit.js")
+    }
+    action-endpoint (ActionDisplayWhiteCredit) {
+      accepted-inputs (white) 
+      local-endpoint ("DisplayWhiteCredit.js")
+    }
+    action-endpoint (ActionDisplayAnything) {
+      accepted-inputs (match, anything)
+      local-endpoint ("DisplayAnything.js")
+    }
+  }
+}

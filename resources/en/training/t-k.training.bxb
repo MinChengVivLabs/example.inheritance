@@ -1,0 +1,5 @@
+train (t-ksf0uhn2wmkhyod610033jqm6) {
+  utterance ("[g:ConstructGoMatch] find match between {[g:StructGoPlayerBlack] (AlphaGo)[v:GoPlayerName]} and {[g:StructGoPlayerWhite] (AmazonGo)[v:GoPlayerName]}")
+  plan (Y+BiUEytSMwtyEnVy8zLSC3KLEnMS07VCy4pKk0ucc/3TSxJzmBQwabEOT+vGEWVOj6DAnISK1OLnHISk7MZlAgrZFAlYCVUmQI2ZTBZv8TcVGJcFZ6RWZJKX1dxMjAyMDEwM7AwsDKwMbAzcABFGOBijFAxRqAYC5hE0KxgVSBdnECaiYENAA==)
+  last-modified (1555537995257)
+}

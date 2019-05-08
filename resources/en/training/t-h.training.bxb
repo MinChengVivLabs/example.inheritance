@@ -1,0 +1,10 @@
+train (t-hqvk1ropuj0hd8nvgyqnvp86f) {
+  utterance ("[g:ActionDisplayMatchCredit] what is credit of match {[g:StructGoPlayerBlack] (AlphaGo)[v:GoPlayerName]} vs {[g:StructGoPlayerWhite] (AmazonGo)[v:GoPlayerName]}")
+  plan (vY7BCoJAEIZ/U8uy3qGi6BK+Qxl0KoKCzss24JK6sm5ib98mRghSnbrMwDffzD8YYlSIIuBSUXCiUmNJJUuymAKRRqSEZimnYMW1kOlG5FnM7jumeRQqugiNSZt91OrG9VZWImZtSijTvGEtPh06mFRS65jxK6bfRcy/RNbauE17TfcsoV++OkdC03+/8mGhAxsOXHTRg4c+Boaiwe2aWxWHoc/67q7pTrXtmy0H3gM=)
+  last-modified (1555538802145)
+}
+train (t-hugm31p8by4qan1hyu3ndv83x) {
+  utterance ("[g:StructGoPlayer#credit] what is the credit of player (AlphaGo)[v:GoPlayerName]")
+  plan (Y2BhUEqtSMwtyEnVy8zLSC3KLEnMS07Vc88PyEmsTC1yLkpNySzBria4pKg0uQSmkkEVmxrn/LxiVGUK+KzzS8xNZWBmYGRgApIMYJoJSIIAiAaKAQA=)
+  last-modified (1555972012062)
+}

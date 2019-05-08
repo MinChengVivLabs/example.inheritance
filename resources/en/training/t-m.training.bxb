@@ -1,0 +1,5 @@
+train (t-m7vmw92twnvr9l1fv589x9a4f) {
+  utterance ("[g:ActionDisplayAnything] I want computed output match {[g:StructGoPlayerBlack] (AlphaGo)[v:GoPlayerName]} vs {[g:StructGoPlayerWhite] (AmazonGo)[v:GoPlayerName]}")
+  plan (vY7BCoJAEIZ/U8uy3qGiiC6+gxV0KoKCzssy5JKuopvo27eJEYJkpy4z8M038w/GmOQi93icknehQmFNBYuSkDwhA0qFYpKT53MlYrkTWRKy0pelCoS8YdamnlX64GofH5jiARZtyjaWWcNafTt00pGUbkLG75h3i1h2RNbatE17T48sol++ugZC0X+/cmGgBxMWbPQxgIMhRpqiwc2aGxWHpq/66bbuVrXt6i0LzhM=)
+  last-modified (1555713468762)
+}

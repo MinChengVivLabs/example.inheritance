@@ -1,0 +1,3 @@
+integer (GoPlayerRank) {
+  description (__DESCRIPTION__)
+}

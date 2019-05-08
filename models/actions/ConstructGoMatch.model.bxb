@@ -1,0 +1,29 @@
+action (ConstructGoMatch) {
+  description (__DESCRIPTION__)
+  type (Search)
+  // type (Constructor)
+  // type (Calculation)
+  collect {
+    input (black) {
+      type (StructGoPlayerBlack)
+      min (Required) max (One)
+      // default-init {
+      //   intent {
+      //     goal: StructGoPlayerBlack
+      //     value: GoPlayerName("AlphaGo")
+      //   }
+      // }
+    }
+    input (white) {
+      type (StructGoPlayerWhite)
+      min (Required) max (One)
+      // default-init {
+      //   intent {
+      //     goal: StructGoPlayerWhite
+      //     value: GoPlayerName("AmazonGo")
+      //   }
+      // }
+    }
+  }
+  output (StructGoMatch)
+}

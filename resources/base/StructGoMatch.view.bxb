@@ -1,0 +1,14 @@
+result-view {
+  match: StructGoMatch(this)
+//   render {
+//     layout {
+//       section {
+//         content {
+//           
+//         }
+//       }
+//     }
+//   }
+//   
+  message: template ("#{value(this.black.name)} VS #{value(this.white.name)}")
+}

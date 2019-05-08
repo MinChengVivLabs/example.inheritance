@@ -1,0 +1,16 @@
+structure (StructGoPlayer) {
+  description (__DESCRIPTION__)
+  property (name) {
+    type (GoPlayerName)
+    min (Required) max (One)
+  }
+  property (rank) {
+    type (GoPlayerRank)
+    min (Required) max (One)    
+  }
+  property (credit) {
+    type (GoPlayerCredit)
+    min (Required) max (One)
+//    visibility (Private)
+  }
+}

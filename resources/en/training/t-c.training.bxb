@@ -1,0 +1,10 @@
+train (t-cbyu970zbjks8v5kuvxz0kqj5) {
+  utterance ("[g:ConstructGoPlayer] find go player (AlphaGo)[v:GoPlayerName]")
+  plan (Y2BmUEqtSMwtyEnVy8zLSC3KLEnMS07VCy4pKk0ucc8PyEmsTC1iUMWmxjk/rxhVmQI2ZTBZv8TcVAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1555705387077)
+}
+train (t-cnwsrbwu9hu1yo8ceghlnbghv) {
+  utterance ("[g:StructGoPlayer] player (AlphaGo)[v:GoPlayerName]")
+  plan (Y2BmUEqtSMwtyEnVy8zLSC3KLEnMS07VCy4pKk0ucc8PyEmsTC1iUMWmxjk/rxhVmQI2ZTBZv8TcVAYmBkYgZgCSjAwgwATBAA==)
+  last-modified (1555705425562)
+}
