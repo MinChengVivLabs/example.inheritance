@@ -8,9 +8,8 @@
 
 The purpose of this example is to demonstrate how and when to use `role-of` or `extends` in Bixby
 
-  - There is an error in training to reflect a bug in current version. 
-    - It should be gone in the next version IDE.
-  - TypeBase is the base concept, and TypeChild is the `role-of` or `extends` concept. 
+**Summary**
+  - Assume TypeBase is the base concept, and TypeChild is the `role-of` or `extends` concept. 
   - `role-of` only:
     - TypeBase can be feed into action requires TypeChild
     - NO new property in TypeChild
@@ -21,6 +20,11 @@ The purpose of this example is to demonstrate how and when to use `role-of` or `
     - TypeBase can be feed into action requires TypeChild
     - TypeChild can be feed into action requires TypeBase
     - NO new property in TypeChild
+  - This capsule use **StructGoPlayer** as TypeBase and **StructGoPlayerBlack**, **StructGoPlayerWhite**, and **StructGoObserver** as TypeChild concept.
+
+**Notes**
+  - There is an error in training to reflect a bug in current version. 
+    - It should be gone in the next version IDE.
   - Check https://bixbydevelopers.zendesk.com/knowledge/articles/360021900934 for details. 
 
 **Resources**
